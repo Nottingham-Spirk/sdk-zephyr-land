@@ -6,3 +6,4 @@
 mainmenu "Zephyr Kernel Configuration"
 
 source "Kconfig.zephyr"
+# Adding this as test
