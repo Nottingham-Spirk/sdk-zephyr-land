@@ -6,4 +6,3 @@
 mainmenu "Zephyr Kernel Configuration"
 
 source "Kconfig.zephyr"
-#Test of data loss
