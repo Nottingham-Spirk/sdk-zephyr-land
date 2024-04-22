@@ -39,6 +39,13 @@ config LWM2M_IPSO_TEMP_SENSOR_VERSION_1_1
 
 endchoice
 
+config LWM2M_CUSTOM_EBIKE
+	bool "Custom LAND ebike"
+	help
+	  This object is used with a LAND
+	  ebike motor controller to log 
+	  battery and motor control data.
+
 config LWM2M_IPSO_GENERIC_SENSOR
 	bool "IPSO Generic Sensor Support"
 	help

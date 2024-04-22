@@ -122,6 +122,11 @@ zephyr_library_sources_ifdef(CONFIG_LWM2M_UCIFI_BATTERY
     ucifi_battery.c
     )
 
+# Custom lwm2m object
+zephyr_library_sources_ifdef(CONFIG_LWM2M_CUSTOM_EBIKE
+    custom_ebike.c
+    )
+
 # Shell commands
 zephyr_library_sources_ifdef(CONFIG_LWM2M_SHELL
     lwm2m_shell.c

@@ -78,6 +78,7 @@
 #define IPSO_OBJECT_PUSH_BUTTON_ID          3347 /**< IPSO Push Button object */
 #define UCIFI_OBJECT_BATTERY_ID             3411 /**< uCIFI Battery object */
 #define IPSO_OBJECT_FILLING_LEVEL_SENSOR_ID 3435 /**< IPSO Filling Level Sensor object */
+#define CUSTOM_OBJECT_EBIKE_ID				42769 /**< Custom object for LAND ebike object */
 /* clang-format on */
 
 /** @} */
