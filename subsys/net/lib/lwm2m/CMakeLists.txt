@@ -123,7 +123,7 @@ zephyr_library_sources_ifdef(CONFIG_LWM2M_UCIFI_BATTERY
     )
 
 # Custom lwm2m object
-zephyr_library_sources_ifdef(CONFIG_LWM2M_CUSTOM_EBIKE
+zephyr_library_sources_ifdef(CONFIG_LWM2M_CUSTOM_LAND_EBIKE
     custom_ebike.c
     )
 
